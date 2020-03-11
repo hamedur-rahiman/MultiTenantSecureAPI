@@ -14,6 +14,7 @@ namespace MultiTenantSecureAPI
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            //Testing
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
